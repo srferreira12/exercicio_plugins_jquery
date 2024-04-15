@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header > .container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-bottom: 16px;
+}
+
+header a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin-top: 24px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+section h2 {
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input {
+    width: 100%;
+    display: inline;
+    padding: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+form {
+    margin-top: 16px;
+    margin-left: 10%;
+    max-width: 960px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+form button {
+    max-width: 200px;
+    margin-bottom: 24px;
+    margin-left: 40%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(0, 255, 21);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 16px;
+}
